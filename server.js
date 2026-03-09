@@ -10,7 +10,7 @@ app.use(express.json());
 
 // Root route
 app.get('/', (req, res) => {
-  res.json({ message: 'Server is running! 🚀' });
+  res.json({ message: 'CI/CD কাজ করছে! 🎉 Auto deployed!' });
 });
 
 // MongoDB Connection + Server Start
